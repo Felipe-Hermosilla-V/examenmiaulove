@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.container{
+    display: flex;  
+    flex-wrap: wrap;
+}
+
+nav{
+    font-size: 22px;
+    width: 250px;
+    height: 1000px;
+    padding: 10px;
+    padding-top: 40px;
+    border: solid 3px black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+h1{
+    color: rgb(208, 120, 135);
+}
+
+
+
+#boton{
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 166, 181);
+    border: solid 2px black;
+    width:100px;
+    height: 40px;
+}
+#botones_examen1{
+    color: white;   
+    border: solid 2px black;
+    background-color: rebeccapurple;
+    margin-top: 20px;
+    width: 100px;
+    height: 40px;
+}
+
+#header{
+    width: 941px;
+    height: 90px;
+    padding: 20px;
+    border: solid 3px black;
+    background-color: rgb(242, 132, 242);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#buscador{
+    width: 200px;
+    height: 18px;
+    border: solid 2px black;
+    margin-left: 700px;
+}
+
+#buscar{
+    width: 20px;
+    background-color: black;
+}
+
+#main{
+    border: solid 3px black;
+    width: 1900px;
+    height: 914px;
+    margin-left: 276px;
+    margin-top: -920px;
+    text-align: center;
+
+}
+
+#titulo{
+    padding: 30px;
+    font-size: 40px;
+}
+
+.gatitos{
+    width: 20px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+}

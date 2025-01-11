@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MiauLove</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <nav> 
+            <h1>
+                MiauLove <img src="img/logo.png" alt="Logo">
+            </h1> 
+            
+            <div id="menu">
+                <p>Inicio</p>
+                <br>
+                <br>
+                <p>Subir imagen</p>
+                <br>
+                <br>
+                <p>Contacto</p>
+                <br>
+                <br>
+                <p>Favoritos</p>
+                <br>
+                <br>
+                <p>Recientes</p>
+            </div>
+            <br>
+            <div>
+                <button id="boton">Configuracion</button>
+                <br>
+                <button onclick="" id="botones_examen1">Cerrar sesion</button>
+            </div>
+            <br>
+            <footer>Todos los derechos reservados MiauLove @</footer>
+        </nav>
+        <header id="header">
+            <img src="img/menu.png" alt="menu">
+            <input type="text" id="buscador" placeholder="Buscar..." ><img src="img/buscar.png" alt="buscar" id="buscar"> 
+        </header>
+        <main id="main">
+            <p id="titulo">
+                ¡Unete y comparte tu amor por los gatitos!
+            </p>
+            <button onclick="cambiar_color(this)">Gatitos</button>
+            <button onclick="cambiar_color(this)"> Jueniles</button>
+            <button onclick="cambiar_color(this)"> Adultos</button>
+            <div class="gatitos">
+                <img src="img/gato1.jpg" alt="gato">
+                <img src="img/gato2.jpg" alt="gato">
+                <img src="img/gato2.jpg" alt="gato">
+                <img src="img/gato4.png" alt="gato">
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
