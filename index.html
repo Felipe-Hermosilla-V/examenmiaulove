@@ -32,31 +32,57 @@
             <div>
                 <button id="boton">Configuracion</button>
                 <br>
-                <button onclick="" id="botones_examen1">Cerrar sesion</button>
+                <button onclick="CerrarSesion()" id="CerrarSesion">Cerrar sesion</button>
             </div>
             <br>
             <footer>Todos los derechos reservados MiauLove @</footer>
         </nav>
-        <header id="header">
-            <img src="img/menu.png" alt="menu">
-            <input type="text" id="buscador" placeholder="Buscar..." ><img src="img/buscar.png" alt="buscar" id="buscar"> 
-        </header>
         <main id="main">
-            <p id="titulo">
-                ¡Unete y comparte tu amor por los gatitos!
-            </p>
-            <button onclick="cambiar_color(this)">Gatitos</button>
-            <button onclick="cambiar_color(this)"> Jueniles</button>
-            <button onclick="cambiar_color(this)"> Adultos</button>
+            <header id="header">
+                <img src="img/menu.png" alt="menu">
+                <input type="text" id="buscador" placeholder="Buscar..." ><img src="img/buscar.png" alt="buscar" id="buscar"> 
+            </header> 
+            <p id="titulo">¡Unete y comparte tu amor por los gatitos!</p>
+            <button class="edades" onclick="cambiar_color(this)">Gatitos</button>
+            <button class="edades" onclick="cambiar_color(this)">Jueniles</button>
+            <button class="edades" onclick="cambiar_color(this)">Adultos</button>
             <div class="gatitos">
-                <img src="img/gato1.jpg" alt="gato">
-                <img src="img/gato2.jpg" alt="gato">
-                <img src="img/gato2.jpg" alt="gato">
-                <img src="img/gato4.png" alt="gato">
+                <div class="like" >
+                    <img class="borde_gatos" src="img/gato1.jpg" alt="gato">
+                    <button class="span" onclick="like(1)" ><img src="img/like.png" alt="like"> 
+                        <p>
+                            <span class="numero1"> 0</span>
+                        </p>
+                    </button>
+                </div>
+                <div class="like" >
+                    <img class="borde_gatos" src="img/gato2.jpg" alt="gato">
+                    <button class="span" onclick="like(2)" ><img src="img/like.png" alt="like">
+                        <p>
+                            <span class="numero2"> 0</span>
+                        </p>
+                    </button>
+                </div>
+                <div class="like" >
+                    <img class="borde_gatos" src="img/gato2.jpg" alt="gato">
+                    <button class="span" onclick="like(3)" ><img src="img/like.png" alt="like">
+                        <p>
+                            <span class="numero3"> 0</span>
+                        </p>
+                    </button>
+                </div>
+                <div class="like" >
+                    <img class="borde_gatos" src="img/gato4.png" alt="gato">
+                    <button class="span" onclick="like(4)" ><img src="img/like.png" alt="like">
+                        <p>
+                            <span class="numero4"> 0</span>
+                        </p>
+                    </button>
+                </div>
             </div>
         </main>
     </div>
 
-    <script src="script.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>

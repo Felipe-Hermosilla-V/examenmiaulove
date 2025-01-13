@@ -10,12 +10,11 @@
 }
 
 nav{
-    font-size: 22px;
-    width: 250px;
-    height: 1000px;
+    font-size: 15px;
+    width: 15%;
     padding: 10px;
     padding-top: 40px;
-    border: solid 3px black;
+    border: solid 2px black;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -36,7 +35,7 @@ h1{
     width:100px;
     height: 40px;
 }
-#botones_examen1{
+#CerrarSesion{
     color: white;   
     border: solid 2px black;
     background-color: rebeccapurple;
@@ -46,10 +45,9 @@ h1{
 }
 
 #header{
-    width: 941px;
-    height: 90px;
+    width: auto;
     padding: 20px;
-    border: solid 3px black;
+    border: solid 2px black;
     background-color: rgb(242, 132, 242);
     display: flex;
     justify-content: space-between;
@@ -70,11 +68,9 @@ h1{
 }
 
 #main{
-    border: solid 3px black;
-    width: 1900px;
-    height: 914px;
-    margin-left: 276px;
-    margin-top: -920px;
+    border: solid 2px black;
+    width: 1045px;
+    padding-bottom: 92px;
     text-align: center;
 
 }
@@ -85,8 +81,44 @@ h1{
 }
 
 .gatitos{
-    width: 20px;
-    height: 100px;
+    padding: 60px;
+    height: 200px;
     display: flex;
     justify-content: space-between;
+}
+
+.borde_gatos{
+    width: 200px;
+    border: solid 2px black;
+}
+
+.edades{
+    margin: 30px;
+    height: 50px;
+    width: 140px;
+    background-color: rgb(242, 132, 242);
+    border: solid 2px black;
+    border-radius:30px;
+}
+
+button{
+    cursor: pointer;
+}
+
+.like{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.span{
+    width: 100px;
+    background-color: white;
+    border: solid;
+    border-radius: 23px;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
